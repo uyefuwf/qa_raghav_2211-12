@@ -1,0 +1,29 @@
+{
+  "payload": [{
+    "id": 9,
+    "title": "Activity 1",
+    "dueDate": "2026-08-30T13:35:58.8404216+00:00",
+    "completed": false}
+  ]
+,
+  "put": [{
+    "id": 9,
+    "title": "Activity 1",
+    "name" : "raghu",
+    "dueDate": "2026-08-30T13:35:58.8404216+00:00",
+    "completed": false}
+  ],
+   "delete": [{
+    "id": 9,
+    "title": "Activity 1",
+    "name" : "raghu",
+    "dueDate": "2026-08-30T13:35:58.8404216+00:00",
+    "completed": false}],
+     "get": [{
+    "id": 9,
+    "title": "Activity 1",
+    "name" : "raghu",
+    "dueDate": "2026-08-30T13:35:58.8404216+00:00",
+    "completed": false}]
+
+}
