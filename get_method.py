@@ -5,7 +5,7 @@ class TestGetMethod:
         response = session.get(f"{base_url}/Activities/{get_payload['id']}")
         assert response.status_code == 200
         assert "id" in response.json()
-    @pytest.mark.parametrize("ic_resource_id", ["wer", "abx", "@"])
+    @pytest.mark.parametrize("ic_resource_id", ["67frw2", "abx", "@"])
     def test_get_method_with_ic_params(self, api_client, ic_resource_id):
         session,base_url= api_client
         response2 = session.get(f"{base_url}/Activities/{ic_resource_id}")
